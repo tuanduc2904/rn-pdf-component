@@ -1,5 +1,5 @@
 {
-    "name": "rn-view-pdf",
+    "name": "rn-pdf-component",
     "version": "6.7.7",
     "summary": "A react native PDF view component",
     "description": "A react native PDF view component, support ios and android platform",
@@ -7,7 +7,7 @@
     "typings": "./index.d.ts",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tuanduc2904/rn-view-pdf.git"
+        "url": "git+https://github.com/tuanduc2904/rn-pdf-component.git"
     },
     "keywords": [
         "react-component",
@@ -23,9 +23,9 @@
         "url": "https://github.com/tuanduc2904"
     },
     "license": "MIT",
-    "homepage": "https://github.com/tuanduc2904/rn-view-pdf",
+    "homepage": "https://github.com/tuanduc2904/rn-pdf-component",
     "bugs": {
-        "url": "https://github.com/tuanduc2904/rn-view-pdf/issues"
+        "url": "https://github.com/tuanduc2904/rn-pdf-component/issues"
     },
     "dependencies": {
         "crypto-js": ">=3.1.9-1",
