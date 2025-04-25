@@ -1,5 +1,5 @@
 {
-    "name": "react-native-pdf",
+    "name": "rn-view-pdf",
     "version": "6.7.7",
     "summary": "A react native PDF view component",
     "description": "A react native PDF view component, support ios and android platform",
@@ -7,7 +7,7 @@
     "typings": "./index.d.ts",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/wonday/react-native-pdf.git"
+        "url": "git+https://github.com/tuanduc2904/rn-view-pdf.git"
     },
     "keywords": [
         "react-component",
@@ -19,16 +19,16 @@
         "viewer"
     ],
     "author": {
-        "name": "Wonday",
-        "url": "https://github.com/wonday"
+        "name": "Duc Nguyen",
+        "url": "https://github.com/tuanduc2904"
     },
     "license": "MIT",
-    "homepage": "https://github.com/wonday/react-native-pdf",
+    "homepage": "https://github.com/tuanduc2904/rn-view-pdf",
     "bugs": {
-        "url": "https://github.com/wonday/react-native-pdf/issues"
+        "url": "https://github.com/tuanduc2904/rn-view-pdf/issues"
     },
     "dependencies": {
-        "crypto-js": "4.2.0",
+        "crypto-js": ">=3.1.9-1",
         "deprecated-react-native-prop-types": "^2.3.0"
     },
     "devDependencies": {
@@ -39,7 +39,7 @@
     "peerDependencies": {
         "react": "*",
         "react-native": "*",
-        "react-native-blob-util": ">=0.13.7"
+        "rn-blob-util": ">=1.0.0"
     },
     "files": [
         "android/",

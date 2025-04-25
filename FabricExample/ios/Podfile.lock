@@ -625,7 +625,7 @@ PODS:
   - React-jsinspector (0.70.6)
   - React-logger (0.70.6):
     - glog
-  - react-native-blob-util (0.16.4):
+  - rn-blob-util (0.16.4):
     - React-Core
   - react-native-orientation-locker (1.5.0):
     - React-Core
@@ -765,7 +765,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
-  - react-native-blob-util (from `../node_modules/react-native-blob-util`)
+  - rn-blob-util (from `../node_modules/rn-blob-util`)
   - react-native-orientation-locker (from `../node_modules/react-native-orientation-locker`)
   - react-native-pdf (from `../node_modules/react-native-pdf`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -849,8 +849,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   React-logger:
     :path: "../node_modules/react-native/ReactCommon/logger"
-  react-native-blob-util:
-    :path: "../node_modules/react-native-blob-util"
+  rn-blob-util:
+    :path: "../node_modules/rn-blob-util"
   react-native-orientation-locker:
     :path: "../node_modules/react-native-orientation-locker"
   react-native-pdf:
@@ -923,7 +923,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: b4a65947391c658450151275aa406f2b8263178f
   React-jsinspector: 60769e5a0a6d4b32294a2456077f59d0266f9a8b
   React-logger: 1623c216abaa88974afce404dc8f479406bbc3a0
-  react-native-blob-util: 60453b777610c87a22b3524032c0214e8db555db
+  rn-blob-util: 60453b777610c87a22b3524032c0214e8db555db
   react-native-orientation-locker: 851f6510d8046ea2f14aa169b1e01fcd309a94ba
   react-native-pdf: 98810171111685a679dfb6beaf638090ba3a9eb9
   React-perflogger: 8c79399b0500a30ee8152d0f9f11beae7fc36595
