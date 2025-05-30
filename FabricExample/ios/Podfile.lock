@@ -629,7 +629,7 @@ PODS:
     - React-Core
   - react-native-orientation-locker (1.5.0):
     - React-Core
-  - react-native-pdf (6.6.2):
+  - rn-pdf-component (6.6.2):
     - RCT-Folly
     - RCTRequired
     - RCTTypeSafety
@@ -767,7 +767,7 @@ DEPENDENCIES:
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - rn-blob-util (from `../node_modules/rn-blob-util`)
   - react-native-orientation-locker (from `../node_modules/react-native-orientation-locker`)
-  - react-native-pdf (from `../node_modules/react-native-pdf`)
+  - rn-pdf-component (from `../node_modules/rn-pdf-component`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -853,8 +853,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/rn-blob-util"
   react-native-orientation-locker:
     :path: "../node_modules/react-native-orientation-locker"
-  react-native-pdf:
-    :path: "../node_modules/react-native-pdf"
+  rn-pdf-component:
+    :path: "../node_modules/rn-pdf-component"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTActionSheet:
@@ -925,7 +925,7 @@ SPEC CHECKSUMS:
   React-logger: 1623c216abaa88974afce404dc8f479406bbc3a0
   rn-blob-util: 60453b777610c87a22b3524032c0214e8db555db
   react-native-orientation-locker: 851f6510d8046ea2f14aa169b1e01fcd309a94ba
-  react-native-pdf: 98810171111685a679dfb6beaf638090ba3a9eb9
+  rn-pdf-component: 98810171111685a679dfb6beaf638090ba3a9eb9
   React-perflogger: 8c79399b0500a30ee8152d0f9f11beae7fc36595
   React-RCTActionSheet: 7316773acabb374642b926c19aef1c115df5c466
   React-RCTAnimation: 5341e288375451297057391227f691d9b2326c3d

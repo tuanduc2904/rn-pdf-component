@@ -1,8 +1,8 @@
-# react-native-pdf Windows Implementation
+# rn-pdf-component Windows Implementation
 
 - Open your solution in Visual Studio 2019 (eg. `windows\yourapp.sln`)
 - Right-click Solution icon in Solution Explorer > Add > Existing Project...
-  - If running RNW 0.62: add `node_modules\react-native-pdf\windows\RCTPdf\RCTPdf.vcxproj`
+  - If running RNW 0.62: add `node_modules\rn-pdf-component\windows\RCTPdf\RCTPdf.vcxproj`
   - If running RNW 0.62: add `node_modules\rn-fetch-blob\windows\RNFetchBlob\RNFetchBlob.vcxproj`
 - Right-click main application project > Add > Reference...
   - If running 0.62, also select `RCTPdf` and `RNFetchBlob`

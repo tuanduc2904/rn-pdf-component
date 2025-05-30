@@ -3,7 +3,7 @@
 #include "pch.h"
 #include "AutolinkedNativeModules.g.h"
 
-// Includes from react-native-pdf
+// Includes from rn-pdf-component
 #include <winrt/RCTPdf.h>
 
 namespace winrt::Microsoft::ReactNative
@@ -11,7 +11,7 @@ namespace winrt::Microsoft::ReactNative
 
 void RegisterAutolinkedNativeModulePackages(winrt::Windows::Foundation::Collections::IVector<winrt::Microsoft::ReactNative::IReactPackageProvider> const& packageProviders)
 { 
-    // IReactPackageProviders from react-native-pdf
+    // IReactPackageProviders from rn-pdf-component
     packageProviders.Append(winrt::RCTPdf::ReactPackageProvider());
 }
 

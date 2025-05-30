@@ -1,5 +1,5 @@
-# react-native-pdf
-[![npm](https://img.shields.io/npm/v/react-native-pdf.svg?style=flat-square)](https://www.npmjs.com/package/react-native-pdf)
+# rn-pdf-component
+[![npm](https://img.shields.io/npm/v/rn-pdf-component.svg?style=flat-square)](https://www.npmjs.com/package/rn-pdf-component)
 
 A react native PDF view component (cross-platform support)
 
@@ -14,29 +14,29 @@ A react native PDF view component (cross-platform support)
 
 ### Supported versions
 We use [`rn-blob-util`](https://github.com/tuanduc2904/rn-blob-util) to handle file system access in this package,
-So you should install react-native-pdf and rn-blob-util
+So you should install rn-pdf-component and rn-blob-util
 
-> The table below shows the supported versions of React Native and rn-blob-util for different versions of `react-native-pdf`.
+> The table below shows the supported versions of React Native and rn-blob-util for different versions of `rn-pdf-component`.
 
 | React Native              | 0.4x - 0.56     | 0.57    | 0.60+    | 0.62+    | 0.62+    |
 | ------------------------- | --------------- | ------- | -------- | -------- | -------- |
-| react-native-pdf          | 4.x.x - 5.0.x   | 5.0.9+  | 6.0.0+   | 6.2.0+   | 6.4.0+   |
+| rn-pdf-component          | 4.x.x - 5.0.x   | 5.0.9+  | 6.0.0+   | 6.2.0+   | 6.4.0+   |
 | rn-blob-util    |                 |         |          |          | 0.13.7+  |
 
 
-> 🚨 Expo: This package is not available in the [Expo Go](https://expo.dev/client) app. Learn how you can use this package in [Custom Dev Clients](https://docs.expo.dev/development/getting-started/) via the out-of-tree [Expo Config Plugin](https://github.com/expo/config-plugins/tree/master/packages/react-native-pdf). Example: [`with-pdf`](https://github.com/expo/examples/tree/master/with-pdf).
+> 🚨 Expo: This package is not available in the [Expo Go](https://expo.dev/client) app. Learn how you can use this package in [Custom Dev Clients](https://docs.expo.dev/development/getting-started/) via the out-of-tree [Expo Config Plugin](https://github.com/expo/config-plugins/tree/master/packages/rn-pdf-component). Example: [`with-pdf`](https://github.com/expo/examples/tree/master/with-pdf).
 
 ### Installation
 
 ```bash
 # Using npm
-npm install react-native-pdf rn-blob-util --save
+npm install rn-pdf-component rn-blob-util --save
 
 # or using yarn:
-yarn add react-native-pdf rn-blob-util
+yarn add rn-pdf-component rn-blob-util
 ```
 
-Then follow the instructions for your platform to link react-native-pdf into your project:
+Then follow the instructions for your platform to link rn-pdf-component into your project:
 
 ### iOS installation
 <details>
@@ -50,7 +50,7 @@ Run `pod install` in the `ios` directory. Linking is not required in React Nativ
 
 ```bash
 react-native link rn-blob-util
-react-native link react-native-pdf
+react-native link rn-pdf-component
 ```
 </details>
 
@@ -77,7 +77,7 @@ android {
 **React Native 0.59.0 and below**
 ```bash
 react-native link rn-blob-util
-react-native link react-native-pdf
+react-native link rn-pdf-component
 ```
 
 
@@ -89,7 +89,7 @@ react-native link react-native-pdf
 
 - Open your solution in Visual Studio 2019 (eg. `windows\yourapp.sln`)
 - Right-click Solution icon in Solution Explorer > Add > Existing Project...
-- If running RNW 0.62: add `node_modules\react-native-pdf\windows\RCTPdf\RCTPdf.vcxproj`
+- If running RNW 0.62: add `node_modules\rn-pdf-component\windows\RCTPdf\RCTPdf.vcxproj`
 - If running RNW 0.62: add `node_modules\rn-blob-util\windows\ReactNativeBlobUtil\ReactNativeBlobUtil.vcxproj`
 - Right-click main application project > Add > Reference...
 - Select `progress-view` and  in Solution Projects
@@ -116,10 +116,10 @@ in the app `.vcxproj` file, before `<None Include="packages.config" />`.
 
 Q1. After installation and running, I can not see the pdf file.  
 A1: maybe you forgot to excute ```react-native link``` or it does not run correctly.
-You can add it manually. For detail you can see the issue [`#24`](https://github.com/wonday/react-native-pdf/issues/24) and [`#2`](https://github.com/wonday/react-native-pdf/issues/2)
+You can add it manually. For detail you can see the issue [`#24`](https://github.com/wonday/rn-pdf-component/issues/24) and [`#2`](https://github.com/wonday/rn-pdf-component/issues/2)
 
 Q2. When running, it shows ```'Pdf' has no propType for native prop RCTPdf.acessibilityLabel of native type 'String'```  
-A2. Your react-native version is too old, please upgrade it to 0.47.0+ see also [`#39`](https://github.com/wonday/react-native-pdf/issues/39)
+A2. Your react-native version is too old, please upgrade it to 0.47.0+ see also [`#39`](https://github.com/wonday/rn-pdf-component/issues/39)
 
 Q3. When I run the example app I get a white/gray screen / the loading bar isn't progressing .  
 A3. Check your uri, if you hit a pdf that is hosted on a `http` you will need to do the following:
@@ -155,7 +155,7 @@ Q4. why doesn't it work with react native expo?.
 A4. Expo does not support native module. you can read more expo caveats [`here`](https://facebook.github.io/react-native/docs/getting-started.html#caveats)
 
 Q5. Why can't I run the iOS example? `'Failed to build iOS project. We ran "xcodebuild" command but it exited with error code 65.'`  
-A5. Run the following commands in the project folder (e.g. `react-native-pdf/example`) to ensure that all dependencies are available:
+A5. Run the following commands in the project folder (e.g. `rn-pdf-component/example`) to ensure that all dependencies are available:
 ```
 yarn install (or npm install)
 cd ios
@@ -240,7 +240,7 @@ v6.3.0
 1. Add windows support
 2. Fixed some bugs
 
-[[more]](https://github.com/wonday/react-native-pdf/releases)
+[[more]](https://github.com/wonday/rn-pdf-component/releases)
 
 </details>
 
@@ -257,7 +257,7 @@ v6.3.0
 
 import React from 'react';
 import { StyleSheet, Dimensions, View } from 'react-native';
-import Pdf from 'react-native-pdf';
+import Pdf from 'rn-pdf-component';
 
 export default class PDFExample extends React.Component {
     render() {

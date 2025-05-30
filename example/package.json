@@ -19,13 +19,13 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wonday/react-native-pdf/issues"
+    "url": "https://github.com/tuanduc2904/rn-pdf-component/issues"
   },
   "dependencies": {
     "react": "16.13.1",
     "react-native": "0.69.12",
     "react-native-orientation-locker": "^1.1.6",
-    "react-native-pdf": "file:../",
+    "rn-pdf-component": "file:../",
     "react-native-windows": "^0.63.11",
     "rn-blob-util": "^0.13.14"
   },

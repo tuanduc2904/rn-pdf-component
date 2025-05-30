@@ -1,6 +1,6 @@
 What `react-native` version are you using?
 
-What `react-native-pdf` version are you using?
+What `rn-pdf-component` version are you using?
 
 What platform does your issue occur on? (android/ios/both)
 

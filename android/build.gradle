@@ -1,4 +1,4 @@
-description = 'react-native-pdf'
+description = 'rn-pdf-component'
 
 buildscript {
     ext.safeExtGet = { prop, fallback ->
@@ -49,7 +49,7 @@ def resolveReactNativeDirectory() {
     }
 
     throw new Exception(
-        "[react-native-pdf] Unable to resolve react-native location in " +
+        "[rn-pdf-component] Unable to resolve react-native location in " +
             "node_modules. You should add project extension property (in app/build.gradle) " +
             "`REACT_NATIVE_NODE_MODULES_DIR` with path to react-native."
     )

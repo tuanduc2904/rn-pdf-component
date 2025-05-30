@@ -1,6 +1,6 @@
 {
     "name": "rn-pdf-component",
-    "version": "6.7.7",
+    "version": "6.7.8",
     "summary": "A react native PDF view component",
     "description": "A react native PDF view component, support ios and android platform",
     "main": "index.js",
@@ -54,7 +54,7 @@
         "PdfView.js",
         "PdfViewFlatList.js",
         "PinchZoomView.js",
-        "react-native-pdf.podspec",
+        "rn-pdf-component.podspec",
         "fabric/"
     ],
     "codegenConfig": {
